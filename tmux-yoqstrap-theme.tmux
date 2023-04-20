@@ -81,7 +81,7 @@ time_format=$(get "@time_format" "%R")
 date_format=$(get "@date_format" "%d/%m/%Y")
 
 set "status-right" "#[fg=$white,bg=$black,nounderscore,noitalics]${time_format}  ${date_format} #[fg=$visual_grey,bg=$black]#[fg=$visual_grey,bg=$visual_grey]#[fg=$white, bg=$visual_grey]#[fg=$pink,bg=$visual_grey,nobold,nounderscore,noitalics]#[fg=$black,bg=$pink,bold] #h #[fg=$yellow, bg=$pink]#[fg=$red,bg=$yellow]"
-set "status-left" "#[fg=$black,bg=$pink,bold] #S #{prefix_highlight} #[fg=$pink,bg=$black,nobold,nounderscore,noitalics]"
+set "status-left" "#[fg=$black,bg=$pink,bold] #S #{prefix_highlight}#[fg=$pink,bg=$black,nobold,nounderscore,noitalics]"
 
 set "window-status-format" "#[fg=$black,bg=$black,nobold,nounderscore,noitalics] #[fg=$white,bg=$black] #I #W #[fg=$black,bg=$black,nobold,nounderscore,noitalics]"
 set "window-status-current-format" "#[fg=$black,bg=$visual_grey,nobold,nounderscore,noitalics] #[fg=$white,bg=$visual_grey,nobold] #I #W #[fg=$visual_grey,bg=$black,nobold,nounderscore,noitalics]"
