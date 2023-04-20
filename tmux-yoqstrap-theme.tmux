@@ -1,5 +1,5 @@
 #!/bin/bash
-black="#262626"
+black="#363636"
 blue="#61afef"
 yellow="#e5c07b"
 red="#e06c75"
