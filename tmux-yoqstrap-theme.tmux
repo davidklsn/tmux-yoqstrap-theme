@@ -81,7 +81,7 @@ set "@prefix_highlight_output_prefix" ""
 time_format=$(get "@time_format" "%R")
 date_format=$(get "@date_format" "%d/%m/%Y")
 
-set "status-right" "#[fg=$white,bg=$black,nounderscore,noitalics]${time_format}  ${date_format} #[fg=$visual_grey,bg=$black]#[fg=$visual_grey,bg=$visual_grey]#[fg=$white, bg=$visual_grey]#[fg=$pastel_blue,bg=$visual_grey,nobold,nounderscore,noitalics]#[fg=$visual_grey,bg=$pastel_blue,bold] #h #[fg=$yellow, bg=$pastel_blue]#[fg=$red,bg=$yellow]"
+set "status-right" "#[fg=$white,bg=$black,nounderscore,noitalics]${time_format}  ${date_format} #[fg=$visual_grey,bg=$black]#[fg=$visual_grey,bg=$visual_grey]#[fg=$white, bg=$visual_grey]#[fg=$pastel_blue,bg=$visual_grey,nobold,nounderscore,noitalics]#[fg=$white,bg=$visual_grey,bold] #h #[fg=$yellow, bg=$pastel_blue]#[fg=$red,bg=$yellow]"
 set "status-left" "#[fg=$white,bg=$pastel_blue,bold] #S #{prefix_highlight}#[fg=$pastel_blue,bg=$black,nobold,nounderscore,noitalics]"
 
 set "window-status-format" "#[fg=$black,bg=$black,nobold,nounderscore,noitalics] #[fg=$white,bg=$black] #I #W #[fg=$black,bg=$black,nobold,nounderscore,noitalics]"
