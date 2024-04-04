@@ -5,7 +5,7 @@ yellow="#e5c07b"
 red="#e06c75"
 white="#aab2bf"
 pink="#E9CAC8"
-pastel_blue="#537162"
+pastel_blue="#A9B1D6"
 visual_grey="#3e4452"
 comment_grey="#5c6370"
 
@@ -82,7 +82,7 @@ time_format=$(get "@time_format" "%R")
 date_format=$(get "@date_format" "%d/%m/%Y")
 
 set "status-right" "#[fg=$white,bg=$black,nounderscore,noitalics]${time_format}  ${date_format} #[fg=$visual_grey,bg=$black]#[fg=$visual_grey,bg=$visual_grey]#[fg=$white, bg=$visual_grey]#[fg=$pastel_blue,bg=$visual_grey,nobold,nounderscore,noitalics]#[fg=$white,bg=$visual_grey,nobold] #h #[fg=$yellow, bg=$pastel_blue]#[fg=$red,bg=$yellow]"
-set "status-left" "#[fg=$white,bg=$pastel_blue,nobold] #S #{prefix_highlight}#[fg=$pastel_blue,bg=$black,nobold,nounderscore,noitalics]"
+set "status-left" "#[fg=$black,bg=$pastel_blue,nobold] #S #{prefix_highlight}#[fg=$pastel_blue,bg=$black,nobold,nounderscore,noitalics]"
 
 set "window-status-format" "#[fg=$black,bg=$black,nobold,nounderscore,noitalics] #[fg=$white,bg=$black] #I #W #[fg=$black,bg=$black,nobold,nounderscore,noitalics]"
 set "window-status-current-format" "#[fg=$black,bg=$visual_grey,nobold,nounderscore,noitalics] #[fg=$white,bg=$visual_grey,nobold] #I #W #[fg=$visual_grey,bg=$black,nobold,nounderscore,noitalics]"
