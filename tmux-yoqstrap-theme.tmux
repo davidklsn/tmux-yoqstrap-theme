@@ -5,7 +5,7 @@ yellow="#e5c07b"
 red="#e06c75"
 white="#aab2bf"
 pink="#E9CAC8"
-pastel_blue="#013220"
+pastel_blue="#537162"
 visual_grey="#3e4452"
 comment_grey="#5c6370"
 
